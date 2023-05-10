@@ -1,0 +1,1 @@
+declare module '*.jpg';                       // for importing images in TS
