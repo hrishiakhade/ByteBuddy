@@ -11,7 +11,7 @@ type HeaderProps = {
 export const Header = ({ title, subtitle }: HeaderProps) => {
 
     return (
-        <View >
+        <View>
             <Text style={styles.title}>{title}</Text>
             <Text style={styles.subtitle}>{subtitle}</Text>
         </View >

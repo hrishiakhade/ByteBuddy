@@ -42,7 +42,7 @@ const HomeScreen = ({ navigation }: HomeScreenProps) => {
                 style={styles.imageContainer}
                 source={BackgroundImage}>
                 <View style={styles.imageContainer}>
-                    <Header title={APP_STRINGS.title} subtitle={APP_STRINGS.subtitle} />
+                    <Header title={APP_STRINGS.title} subtitle={APP_STRINGS.subtitle}/>
                     <Cards
                         questionData={questionData[index]}
                         isLastQuestion={index === questionData.length - 1}

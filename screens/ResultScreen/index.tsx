@@ -36,6 +36,7 @@ const ResultScreen = ({ route, navigation }: ResultScreenProps) => {
               transform: [{ scale: pressed ? 0.95 : 1 }]
             }
           ]}
+          testID='restartButton'
           onPress={handleRestartPress}
         >
           <Text style={styles.buttonText}>{APP_STRINGS.restart_button}</Text>
