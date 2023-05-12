@@ -59,3 +59,14 @@ We are using Jest to test the React Native Application . Assuming you have alrea
 2. Run the following command  
 ``` npm test ```
 
+
+
+## NOTE : Jest Testing with Expo Go and TypeScript
+
+During the development of this project, I had the opportunity to work with Jest for the first time. Although it was a valuable learning experience, I encountered various challenges and made mistakes along the way.
+
+One of the major challenges I faced was configuring Jest to work seamlessly with Expo Go and TypeScript. Despite investing significant time and effort in troubleshooting and seeking help from the React Native community on platforms like Discord and LinkedIn, I encountered parsing errors and difficulties in handling non-standard JavaScript syntax.
+
+While the Jest test cases were passing, the parsing issues persisted. In order to continue with the project and ensure smooth testing, I made the decision to migrate the codebase from TypeScript to JavaScript. This migration resolved the parsing errors and allowed Jest to function correctly without any further issues.  Here's the link to JS codebase : <a>https://github.com/hrishiakhade/lettuce_entertain_you_challenge</a>
+
+I want to emphasize that this experience taught me a great deal about Jest, testing frameworks, and the importance of proper configuration. I gained valuable insights from my mistakes and actively sought guidance from experienced developers. Although it presented challenges, I appreciate the opportunity to expand my knowledge and improve my skills in testing with Jest.
